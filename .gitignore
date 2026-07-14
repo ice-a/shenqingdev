@@ -1,21 +1,24 @@
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# OS
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
 .DS_Store
-Thumbs.db
-Desktop.ini
+.fleet
+.idea
 
-# WorkBuddy / AI workspace
-.workbuddy/
-
-# Build artifacts
-*.zip
-
-# Raw data (not needed in repo)
-情话.txt
-舔狗语录.txt
+# Local env files
+.env
+.env.*
+!.env.example
